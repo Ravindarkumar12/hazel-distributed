@@ -1,0 +1,6 @@
+#hazelcast:
+#  discovery:
+#    strategy: kubernetes
+#    kubernetes:
+#      service-name: your-service-name
+#      namespace: your-namespace

@@ -1,10 +1,12 @@
 hazelcast:
   cluster-name: springhow
-  group:
-#    management-center:
-#      enabled: true
-#      url: 'http://localhost:8080/'
-    network:
-      join:
-        multicast:
-          enabled: true
+  jet:
+    enabled: true
+  network:
+    join:
+      multicast:
+        enabled: false
+      kubernetes:
+        enabled: true
+        service-name: your-service-name
+        namespace: your-namespace
