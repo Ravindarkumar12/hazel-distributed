@@ -1,0 +1,11 @@
+# OpenTelemetry Configuration
+#opentelemetry:
+#  trace:
+#    otlp:
+#      endpoint: localhost:4317
+# OpenTelemetry configuration
+otel:
+  exporter:
+    type: zipkin
+    zipkin:
+      endpoint: http://localhost:9411/api/v2/spans

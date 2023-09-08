@@ -6,7 +6,7 @@ hazelcast:
     join:
       multicast:
         enabled: false
-      kubernetes:
-        enabled: true
-        service-name: your-service-name
-        namespace: your-namespace
+#      kubernetes:
+#        enabled: true
+#        service-name: your-service-name
+#        namespace: your-namespace
